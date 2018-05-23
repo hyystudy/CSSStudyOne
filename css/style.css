@@ -1,0 +1,82 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+
+h1, h2 {
+    color: red;
+    font-size: 2em;
+}
+
+strong {
+    color: red;
+}
+
+h2 strong {
+    color: blue;
+}
+
+#red {
+    color: red;
+}
+
+#blue {
+    color: blue;
+}
+
+#content {
+    border: 2px solid black;
+}
+#content p {
+    color: black;
+}
+
+#content h1 {
+    color: yellow;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    color: aqua;
+    height: 100px;
+    padding: 20px;
+    background-color: black;
+    flex-direction: row;
+}
+
+.container p {
+    padding: 0;
+    margin: 0;
+    flex: 1;
+    background: red;
+    color: white;
+    /*vertical-align  只针对tb内的元素有用*/
+    vertical-align: center;
+    line-height: 100px;
+}
+
+a:active {
+    color: white;
+    background: blue;
+}
+
+a:link {
+    color: yellow;
+    background: aquamarine;
+}
+
+a:hover {
+    color: white;
+    background: black;
+}
+
+[title] {
+    color: red;
+}
+
+
+
+
