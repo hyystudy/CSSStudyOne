@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image</title>
+    <style type="text/css">
+        .img {
+            float: left;
+            padding: 10px;
+            text-align: center;
+            border: gray 1px solid;
+        }
+        img {
+            border: transparent 1px solid;
+            width: 128px;
+            height: 128px;
+
+        }
+        a {
+
+        }
+
+        a:hover img {
+            border: red 1px solid;
+            opacity: 0.8;
+            filter: alpha(opacity=100);
+        }
+
+        .des {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="img">
+            <a target="_blank" href="images/logo.png">
+                <img src="images/logo.png" alt="Ballade"/>
+            </a>
+            <div class="des">工人屋</div>
+        </div>
+    </div>
+</body>
+</html>

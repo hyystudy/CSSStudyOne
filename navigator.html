@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>导航栏</title>
+    <style type="text/css">
+        ul.vertical_nav{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .vertical_nav li a {
+            text-decoration: none;
+            display: block;
+            padding: 6px;
+            text-align: center;
+            background: gray;
+            color: white;
+            width: 160px;
+            font-size: 2em;
+            font-family: 宋体， serif;
+        }
+
+        .vertical_nav li a:active, .vertical_nav li a:hover {
+            background: red;
+        }
+
+
+        ul.horizontal_nav {
+            position: absolute;
+            right: 0;
+            top: 0;
+            list-style-type: none;
+        }
+
+        .horizontal_nav li {
+            display: inline;
+            float: left;
+        }
+
+        .li_inline a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 6px;
+            text-align: center;
+            background: gray;
+            color: white;
+            width: 160px;
+            font-size: 2em;
+            font-family: 宋体， serif;
+            margin: 0;
+        }
+
+        .li_inline a:active, .li_inline a:hover {
+            background: red;
+        }
+    </style>
+</head>
+<body>
+    <ul class="vertical_nav">
+        <li><a href="#home">首页</a></li>
+        <li><a href="#worker">工人端</a></li>
+        <li><a href="#boss">雇主端</a></li>
+        <li><a href="#about">关于我们</a></li>
+    </ul>
+
+    <ul class="horizontal_nav">
+        <li class="li_inline"><a href="#home">首页</a></li>
+        <li class="li_inline"><a href="#worker">工人端</a></li>
+        <li class="li_inline"><a href="#boss">雇主端</a></li>
+        <li class="li_inline"><a href="#about">关于我们</a></li>
+    </ul>
+</body>
+</html>
